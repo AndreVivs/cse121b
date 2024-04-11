@@ -1,0 +1,50 @@
+
+header{
+    display: inline block;
+    width: 100%;
+    min-width: 288px;
+    max-width: 111px;
+    height: 150px;
+    margin-left: 40px; 
+}
+
+
+.starters {
+    height: 120px;
+    width: auto;
+    margin: 35px 0px 0px 720px;
+    border-radius: 20px;
+}
+
+
+.logo-padre{
+    display: flex;
+    width: 150%;
+    align-content: space-between;
+    align-items: center;
+}
+
+.pokedex {
+    width: 75%;
+}
+
+.pokeball {
+    width: 15%
+}
+
+
+.options {
+    border-radius: 10px; /* Borde redondeado */
+    height: 40px; /* Altura */
+    width: 180px; /* Ancho */
+    padding: 5px; /* Espaciado interno */
+    margin: 0 600px;
+}
+
+#containerCards{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 25px;
+}
+
